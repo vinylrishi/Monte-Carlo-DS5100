@@ -1,0 +1,17 @@
+test_10_face_count (__main__.AnalyzerTestSuite) ... ok
+test_11_combo_count (__main__.AnalyzerTestSuite) ... ok
+test_12_combo_letters (__main__.AnalyzerTestSuite) ... ok
+test_9_jackpot (__main__.AnalyzerTestSuite) ... ok
+test_1_change_weight (__main__.DieTestSuite) ... ok
+test_2_roll_results (__main__.DieTestSuite) ... ok
+test_3_roll_results_false (__main__.DieTestSuite) ... ok
+test_4_show (__main__.DieTestSuite) ... ok
+test_5_play (__main__.GameTestSuite) ... ok
+test_6_play_false (__main__.GameTestSuite) ... ok
+test_7_show_nar (__main__.GameTestSuite) ... ok
+test_8_show_wide (__main__.GameTestSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.050s
+
+OK
