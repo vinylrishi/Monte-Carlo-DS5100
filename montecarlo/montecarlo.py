@@ -110,8 +110,7 @@ class Game():
     def show(self, shape = 'wide'):
         if(shape == 'wide'):
             try:
-                df = self._game.pivot_table(index = 'Roll Number', columns='Die Number', values='Face Rolled')
-                df = df.astype(int)
+                df = self._game.pivot_table(index = 'Roll Number', columns='Die Number', values='Face Rolled', aggfunc = lambda x: x)
                 return df
             except:
                 raise Exception('Make sure you have played the game!')
