@@ -45,11 +45,11 @@ jackpots = analyzing.jackpot()
 This will return the number of jackpots (all mathcing faces) in the game played. There are also methods for storing all combinations found, as well as the face counts of the Game within the Analyzer class.  
 
 
-# API Description   
+# API Description  
 
-class Die(N):   
- """ 
-  Creates a Die object with N sides and W weights
+ class Die(N):   
+  """ 
+   Creates a Die object with N sides and W weights
 
     Initialized:
 
@@ -155,6 +155,16 @@ class Die(N):
     
 # Manifest  
 
-
+.gitignore
+FinalProjectSubmission.ipynb
+LICENSE
+README.md
+letter_weights.txt
+montecarlo-test-results.txt
+montecarlo/__init__.py
+montecarlo/montecarlo.py
+montecarlo_demo.ipynb
+montecarlo_tests.py
+setup.py
     
     
