@@ -45,10 +45,11 @@ jackpots = analyzing.jackpot()
 This will return the number of jackpots (all mathcing faces) in the game played. There are also methods for storing all combinations found, as well as the face counts of the Game within the Analyzer class.  
 
 
-# API Description  
+# API Description   
 
 class Die(N):   
-    Creates a Die object with N sides and W weights
+ """ 
+  Creates a Die object with N sides and W weights
 
     Initialized:
 
