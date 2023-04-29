@@ -153,18 +153,18 @@ This will return the number of jackpots (all mathcing faces) in the game played.
     """
     
     
-# Manifest  
+# Manifest   
 
-.gitignore
-FinalProjectSubmission.ipynb
-LICENSE
-README.md
-letter_weights.txt
-montecarlo-test-results.txt
-montecarlo/__init__.py
-montecarlo/montecarlo.py
-montecarlo_demo.ipynb
-montecarlo_tests.py
+.gitignore  
+FinalProjectSubmission.ipynb  
+LICENSE  
+README.md   
+letter_weights.txt  
+montecarlo-test-results.txt  
+montecarlo/__init__.py  
+montecarlo/montecarlo.py  
+montecarlo_demo.ipynb   
+montecarlo_tests.py  
 setup.py
     
     
