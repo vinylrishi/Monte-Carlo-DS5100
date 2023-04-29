@@ -20,27 +20,27 @@ To import specific classes, use "from montecarlo import Analyzer", where Analyze
 
 Sample code for creating dice:  
 
-diefair = mc.Die([1,2,3,4,5,6])  
-dietype1 = mc.Die([1,2,3,4,5,6])  
-dietype2 = mc.Die([1,2,3,4,5,6])  
+    diefair = mc.Die([1,2,3,4,5,6])  
+    dietype1 = mc.Die([1,2,3,4,5,6])  
+    dietype2 = mc.Die([1,2,3,4,5,6])  
 
-dietype1.change_weight(6,5)  
-dietype2.change_weight(1,5)  
+    dietype1.change_weight(6,5)  
+    dietype2.change_weight(1,5)  
 
 Here, we created 1 fair die and 2 unfair die.   
 
 
 Sample code for playing a Game with Die objects:  
 
-fair_d_game = Game([diefair,diefair,diefair,diefair,diefair])  
-fair_d_game.play(100)
+    fair_d_game = Game([diefair,diefair,diefair,diefair,diefair])  
+    fair_d_game.play(100)
 
 This will run a simulation for rolling five fair dice 100 times each.  
 
 Sample code for Analyzing games:  
 
-analyzing = Analyzer(fair_d_game)  
-jackpots = analyzing.jackpot()
+    analyzing = Analyzer(fair_d_game)  
+    jackpots = analyzing.jackpot()
 
 This will return the number of jackpots (all mathcing faces) in the game played. There are also methods for storing all combinations found, as well as the face counts of the Game within the Analyzer class.  
 
