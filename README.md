@@ -47,9 +47,12 @@ This will return the number of jackpots (all mathcing faces) in the game played.
 
 # API Description  
 
+Below are descriptions of the methods and attributes available in the 3 classes of montecarlo.py  
+
+
  
-class Die():
-    """
+    class Die():
+     """
     Creates a Die object with N sides and W weights
 
     Initialized:
