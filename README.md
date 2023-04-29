@@ -47,8 +47,9 @@ This will return the number of jackpots (all mathcing faces) in the game played.
 
 # API Description  
 
- class Die(N):   
-  """ 
+ 
+ class Die(N):
+ """
    Creates a Die object with N sides and W weights
 
     Initialized:
